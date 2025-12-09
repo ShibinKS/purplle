@@ -15,13 +15,7 @@ public class TPPurplle extends BCPurplle{
 		ob.SelCategories();
 		ob.Scroll();
 		ob.addToCart();
-		ob.shopca();
-		ob.Brands();
-		ob.Offers();
-		ob.NewC();
-		ob.Splurge();
-		ob.Magazine();
-		ob.Eliteoff();
+		ob.Headerelements();
 		ob.Hovershop();
 		ob.LipCare();
 	}

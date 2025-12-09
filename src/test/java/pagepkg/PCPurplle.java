@@ -67,55 +67,18 @@ public void searchBar(String txt) {
 		cart.click();
 	}
 	
+	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]")
+	List<WebElement> header;
+	public void Headerelements() {
+		List<WebElement> li=header;
+		for(WebElement tmp:header) {
+			String headerlist=tmp.getText();
+			System.out.println(headerlist);
+		}
+		
+	}
 	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[1]/a")
 	WebElement shopcate;
-	public void shopca() {
-		String shopCategories=shopcate.getText();
-		System.out.println(shopCategories);
-	}
-	
-	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[2]/a")
-	WebElement brand;
-	public void Brands() {
-		String bnd=brand.getText();
-		System.out.println(bnd);
-	}
-	
-	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[3]/a")
-	WebElement offer;
-	public void Offers() {
-		String off=offer.getText();
-		System.out.println(off);
-	}
-	
-	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[4]/a")
-	WebElement neew;
-	public void NewC() {
-		String ne=neew.getText();
-		System.out.println(ne);
-	}
-	
-	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[5]/a")
-	WebElement spl;
-	public void Splurge() {
-		String splur=spl.getText();
-		System.out.println(splur);
-	}
-	
-	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[6]/a")
-	WebElement mag;
-	public void Magazine() {
-		String magaz=mag.getText();
-		System.out.println(magaz);
-	}
-	
-	@FindBy(xpath="//*[@id=\"body\"]/app-root/div/div/app-header/header/div[3]/div/div/div[2]/div[7]/a")
-	WebElement elite;
-	public void Eliteoff() {
-		String elit=elite.getText();
-		System.out.println(elit);
-	}
-	
 	public void Hovershop() {
 		Actions act=new Actions(driver);
 		act.moveToElement(shopcate).perform();

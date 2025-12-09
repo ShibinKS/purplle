@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-08T19:16:17 IST" name="Default suite" finished-at="2025-12-08T19:16:29 IST" duration-ms="11477">
+  <suite started-at="2025-12-09T17:18:21 IST" name="Default suite" finished-at="2025-12-09T17:18:31 IST" duration-ms="9191">
     <groups>
     </groups>
-    <test started-at="2025-12-08T19:16:17 IST" name="Default test" finished-at="2025-12-08T19:16:29 IST" duration-ms="11477">
+    <test started-at="2025-12-09T17:18:21 IST" name="Default test" finished-at="2025-12-09T17:18:31 IST" duration-ms="9191">
       <class name="testpkg.TPPurplle">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.TPPurplle@43bc63a3]" started-at="2025-12-08T19:16:17 IST" name="setUp" finished-at="2025-12-08T19:16:20 IST" duration-ms="2836" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.TPPurplle@43bc63a3]" started-at="2025-12-09T17:18:21 IST" name="setUp" finished-at="2025-12-09T17:18:24 IST" duration-ms="2581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testing()[pri:0, instance:testpkg.TPPurplle@43bc63a3]" started-at="2025-12-08T19:16:20 IST" name="testing" finished-at="2025-12-08T19:16:29 IST" duration-ms="8562" status="PASS">
+        <test-method signature="testing()[pri:0, instance:testpkg.TPPurplle@43bc63a3]" started-at="2025-12-09T17:18:24 IST" name="testing" finished-at="2025-12-09T17:18:31 IST" duration-ms="6546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing -->
